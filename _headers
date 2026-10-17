@@ -1,0 +1,9 @@
+# Headers for Netlify and Cloudflare Pages (other hosts: send the same three
+# on every response, or rely on isolation-sw.js). The game's threads need a
+# cross-origin isolated page. no-cache: revalidated each visit (the file names
+# do not change between builds).
+/*
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Embedder-Policy: require-corp
+  Cross-Origin-Resource-Policy: same-origin
+  Cache-Control: no-cache

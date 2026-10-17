@@ -1,0 +1,533 @@
+0:emscripten_asm_const_int
+1:emscripten_webgl_create_context
+2:emscripten_webgl_make_context_current
+3:emscripten_set_canvas_element_size
+4:glViewport
+5:glClearColor
+6:glClear
+7:glGetString
+8:glGetIntegerv
+9:emscripten_webgl_enable_extension
+10:__cxa_throw
+11:_emscripten_thread_set_strongref
+12:emscripten_runtime_keepalive_check
+13:exit
+14:emscripten_get_now
+15:emscripten_exit_with_live_runtime
+16:_emscripten_init_main_thread_js
+17:_emscripten_thread_mailbox_await
+18:_emscripten_receive_on_main_thread_js
+19:emscripten_check_blocking_allowed
+20:__pthread_create_js
+21:_emscripten_thread_cleanup
+22:emscripten_unwind_to_js_event_loop
+23:_emscripten_notify_mailbox_postmessage
+24:emscripten_resize_heap
+25:_abort_js
+26:emscripten_date_now
+27:_emscripten_runtime_keepalive_clear
+28:__wasi_proc_exit
+29:__call_sighandler
+30:_wasmfs_thread_utils_heartbeat
+31:_wasmfs_opfs_init_root_directory
+32:_wasmfs_opfs_get_child
+33:_wasmfs_opfs_get_size_file
+34:_wasmfs_opfs_get_size_access
+35:_wasmfs_opfs_get_size_blob
+36:_wasmfs_opfs_open_access
+37:_wasmfs_opfs_open_blob
+38:_wasmfs_opfs_close_blob
+39:_wasmfs_opfs_close_access
+40:_wasmfs_opfs_read_access
+41:_wasmfs_opfs_read_blob
+42:_wasmfs_opfs_write_access
+43:_wasmfs_opfs_set_size_access
+44:_wasmfs_opfs_set_size_file
+45:_wasmfs_opfs_flush_access
+46:_wasmfs_opfs_free_file
+47:_wasmfs_opfs_insert_file
+48:_wasmfs_opfs_insert_directory
+49:_wasmfs_opfs_move_file
+50:_wasmfs_opfs_remove_child
+51:_wasmfs_opfs_get_entries
+52:_wasmfs_opfs_free_directory
+53:_wasmfs_stdin_get_char
+54:emscripten_out
+55:emscripten_err
+56:__wasi_random_get
+57:_wasmfs_get_preloaded_file_size
+58:_wasmfs_copy_preloaded_file_data
+59:_wasmfs_get_num_preloaded_files
+60:_wasmfs_get_num_preloaded_dirs
+61:_wasmfs_get_preloaded_parent_path
+62:_wasmfs_get_preloaded_child_path
+63:_wasmfs_get_preloaded_path_name
+64:_wasmfs_get_preloaded_file_mode
+65:__wasm_call_ctors
+66:__wasm_init_tls
+67:__wasm_init_memory
+68:sms_web_probe_disc
+69:main
+70:sms_web_gl_init
+71:(anonymous namespace)::init_on_main(char const*)
+72:gcdisc_read
+73:std::__2::vector<unsigned char, std::__2::allocator<unsigned char>>::resize(unsigned long)
+74:GCDisc::~GCDisc()
+75:gcdisc_header
+76:gcdisc_read_file
+77:std::__2::vector<unsigned char, std::__2::allocator<unsigned char>>::__throw_length_error[abi:nqe220108]()
+78:std::__throw_bad_array_new_length[abi:nqe220108]()
+79:std::__2::__throw_length_error[abi:nqe220108](char const*)
+80:_emscripten_tls_init
+81:_emscripten_proxy_main
+82:_main_thread
+83:dummy
+84:close
+85:__set_thread_state
+86:fiprintf
+87:emscripten_futex_wake
+88:_emscripten_thread_notify
+89:_emscripten_thread_crashed
+90:_emscripten_yield
+91:emscripten_futex_wait
+92:a_cas_p_128
+93:_emscripten_thread_is_valid
+94:__lseek
+95:pread
+96:iprintf
+97:__memcpy
+98:em_task_queue_create
+99:em_task_queue_destroy
+100:em_task_queue_free
+101:em_task_queue_execute
+102:em_task_queue_is_empty
+103:em_task_queue_dequeue
+104:em_task_queue_cancel
+105:em_task_queue_enqueue
+106:cancel_notification
+107:receive_notification
+108:em_proxying_queue_destroy
+109:emscripten_proxy_execute_queue
+110:get_tasks_for_thread
+111:emscripten_proxy_async
+112:do_proxy
+113:get_or_add_tasks_for_thread
+114:emscripten_proxy_finish
+115:remove_active_ctx
+116:free_ctx
+117:call_callback_then_free_ctx
+118:em_proxying_ctx_deinit
+119:emscripten_proxy_sync_with_ctx
+120:cancel_ctx
+121:call_with_ctx
+122:init_active_ctxs
+123:call_cancel_then_free_ctx
+124:emscripten_proxy_sync
+125:call_then_finish_task
+126:_emscripten_run_js_on_main_thread_done
+127:_emscripten_run_js_on_main_thread
+128:run_js_func_with_ctx
+129:run_js_func
+130:cancel_active_ctxs
+131:_do_call
+132:pthread_attr_destroy
+133:__wait
+134:a_inc
+135:a_dec
+136:pthread_cond_destroy
+137:__wake
+138:pthread_cond_signal
+139:__wake_209
+140:__timedwait_cp
+141:__timedwait
+142:__pthread_cond_timedwait
+143:lock
+144:unlock
+145:a_fetch_add
+146:a_swap
+147:a_store
+148:__private_cond_signal
+149:a_fetch_add_228
+150:__futexwait
+151:__ofl_lock
+152:__ofl_unlock
+153:__memset
+154:__vm_lock
+155:__vm_unlock
+156:__tl_lock
+157:__tl_unlock
+158:a_barrier
+159:__pthread_create
+160:init_file_lock
+161:_emscripten_thread_free_data
+162:_emscripten_thread_exit
+163:__pthread_exit
+164:__pthread_getspecific
+165:__pthread_key_create
+166:nodtor
+167:pthread_mutex_destroy
+168:__pthread_mutex_lock
+169:__pthread_mutex_trylock
+170:__pthread_mutex_unlock
+171:undo
+172:__pthread_rwlock_timedrdlock
+173:a_cas_288
+174:__pthread_rwlock_tryrdlock
+175:__pthread_rwlock_unlock
+176:__pthread_rwlock_trywrlock
+177:__pthread_self_internal
+178:__pthread_setcancelstate
+179:pthread_setspecific
+180:__lockfile
+181:__unlockfile
+182:__towrite
+183:__fwritex
+184:__fstatat
+185:__stdio_close
+186:__stdio_write
+187:__stdio_seek
+188:__emscripten_stdout_seek
+189:strcmp
+190:strlen
+191:memchr
+192:strnlen
+193:__syscall_ret
+194:emscripten_thread_mailbox_unref
+195:_emscripten_thread_mailbox_init
+196:_emscripten_check_mailbox
+197:emscripten_set_thread_name
+198:tolower
+199:frexp
+200:__vfprintf_internal
+201:printf_core
+202:out
+203:getint
+204:pop_arg
+205:fmt_u
+206:pad
+207:fmt_fp
+208:vfiprintf
+209:__wasi_syscall_ret
+210:wctomb
+211:pthread_mutexattr_init
+212:pthread_mutex_init
+213:emscripten_builtin_malloc
+214:init_mparams
+215:emscripten_builtin_free
+216:dispose_chunk
+217:abort
+218:sbrk
+219:emscripten_stack_set_limits
+220:operator new(unsigned long)
+221:std::__throw_bad_alloc()
+222:memcmp
+223:std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>::__allocate_long_buffer[abi:nqn220108](std::__2::allocator<char>&, unsigned long)
+224:std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>::__grow_by_and_replace(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, char const*)
+225:std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>::__init_copy_ctor_external(char const*, unsigned long)
+226:std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>& std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>::__assign_no_alias<false>(char const*, unsigned long)
+227:std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>& std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>::__assign_no_alias<true>(char const*, unsigned long)
+228:demangling_terminate_handler()
+229:std::terminate()
+230:__cxa_allocate_exception
+231:__cxxabiv1::__class_type_info::~__class_type_info()
+232:is_equal(std::type_info const*, std::type_info const*, bool)
+233:__cxxabiv1::__class_type_info::can_catch(__cxxabiv1::__shim_type_info const*, void*&) const
+234:__cxxabiv1::__class_type_info::process_found_base_class(__cxxabiv1::__dynamic_cast_info*, void*, int) const
+235:__cxxabiv1::__class_type_info::has_unambiguous_public_base(__cxxabiv1::__dynamic_cast_info*, void*, int) const
+236:__cxxabiv1::__si_class_type_info::has_unambiguous_public_base(__cxxabiv1::__dynamic_cast_info*, void*, int) const
+237:__cxxabiv1::__base_class_type_info::has_unambiguous_public_base(__cxxabiv1::__dynamic_cast_info*, void*, int) const
+238:__cxxabiv1::__vmi_class_type_info::has_unambiguous_public_base(__cxxabiv1::__dynamic_cast_info*, void*, int) const
+239:__cxxabiv1::__class_type_info::process_static_type_above_dst(__cxxabiv1::__dynamic_cast_info*, void const*, void const*, int) const
+240:__cxxabiv1::__vmi_class_type_info::search_below_dst(__cxxabiv1::__dynamic_cast_info*, void const*, int, bool) const
+241:__cxxabiv1::__base_class_type_info::search_above_dst(__cxxabiv1::__dynamic_cast_info*, void const*, void const*, int, bool) const
+242:__cxxabiv1::__base_class_type_info::search_below_dst(__cxxabiv1::__dynamic_cast_info*, void const*, int, bool) const
+243:__cxxabiv1::__si_class_type_info::search_below_dst(__cxxabiv1::__dynamic_cast_info*, void const*, int, bool) const
+244:__cxxabiv1::__class_type_info::search_below_dst(__cxxabiv1::__dynamic_cast_info*, void const*, int, bool) const
+245:__cxxabiv1::__vmi_class_type_info::search_above_dst(__cxxabiv1::__dynamic_cast_info*, void const*, void const*, int, bool) const
+246:__cxxabiv1::__si_class_type_info::search_above_dst(__cxxabiv1::__dynamic_cast_info*, void const*, void const*, int, bool) const
+247:__cxxabiv1::__class_type_info::search_above_dst(__cxxabiv1::__dynamic_cast_info*, void const*, void const*, int, bool) const
+248:std::bad_array_new_length::what() const
+249:std::logic_error::~logic_error()
+250:std::logic_error::~logic_error()_437
+251:std::logic_error::what() const
+252:__cxa_guard_acquire
+253:__cxa_guard_release
+254:pthread_cond_broadcast
+255:std::__2::__shared_weak_count::__release_weak()
+256:std::__2::__shared_weak_count::lock()
+257:std::__2::__shared_weak_count::__get_deleter(std::type_info const&) const
+258:std::__2::thread::~thread()
+259:std::__2::thread::join()
+260:std::__2::__thread_specific_ptr<std::__2::__thread_struct>::__at_thread_exit(void*)
+261:std::__2::vector<std::__2::pair<std::__2::condition_variable*, std::__2::mutex*>, std::__2::__hidden_allocator<std::__2::pair<std::__2::condition_variable*, std::__2::mutex*>>>::~vector[abi:nqn220108]()
+262:std::__2::mutex::lock()
+263:std::__2::recursive_mutex::recursive_mutex()
+264:action_abort
+265:action_terminate
+266:raise
+267:proxied_raise
+268:__cancel
+269:__testcancel
+270:pthread_cancel
+271:std::__2::unique_ptr<wasmfs::Backend, std::__2::default_delete<wasmfs::Backend>>& std::__2::vector<std::__2::unique_ptr<wasmfs::Backend, std::__2::default_delete<wasmfs::Backend>>, std::__2::allocator<std::__2::unique_ptr<wasmfs::Backend, std::__2::default_delete<wasmfs::Backend>>>>::emplace_back<std::__2::unique_ptr<wasmfs::Backend, std::__2::default_delete<wasmfs::Backend>>>(std::__2::unique_ptr<wasmfs::Backend, std::__2::default_delete<wasmfs::Backend>>&&)::'lambda0'()::operator()() const
+272:_wasmfs_opfs_record_entry
+273:wasmfs::Directory::Entry* std::__2::vector<wasmfs::Directory::Entry, std::__2::allocator<wasmfs::Directory::Entry>>::__emplace_back_slow_path<wasmfs::Directory::Entry>(wasmfs::Directory::Entry&&)
+274:(anonymous namespace)::OPFSBackend::createFile(unsigned int)
+275:(anonymous namespace)::OPFSBackend::createDirectory(unsigned int)
+276:emscripten::ProxyingQueue::runWithCtx(em_proxying_ctx*, void*)
+277:(anonymous namespace)::OPFSBackend::~OPFSBackend()
+278:(anonymous namespace)::OPFSBackend::~OPFSBackend()_505
+279:void* std::__2::__thread_proxy[abi:nqn220108]<std::__2::tuple<std::__2::unique_ptr<std::__2::__thread_struct, std::__2::default_delete<std::__2::__thread_struct>>, emscripten::ProxyWorker::ProxyWorker()::'lambda'()>>(void*)
+280:std::__2::unique_lock<std::__2::mutex>::~unique_lock[abi:nqn220108]()
+281:std::__2::__function::__func<(anonymous namespace)::OPFSBackend::createDirectory(unsigned int)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::__clone() const
+282:std::__2::__function::__func<(anonymous namespace)::OPFSBackend::createDirectory(unsigned int)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::__clone(std::__2::__function::__base<void (emscripten::ProxyingQueue::ProxyingCtx)>*) const
+283:std::__2::__function::__func<(anonymous namespace)::OPFSBackend::createDirectory(unsigned int)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::destroy_deallocate()
+284:std::__2::__function::__func<(anonymous namespace)::OPFSBackend::createDirectory(unsigned int)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::operator()(emscripten::ProxyingQueue::ProxyingCtx&&)
+285:std::__2::__function::__func<(anonymous namespace)::OPFSBackend::createDirectory(unsigned int)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::target(std::type_info const&) const
+286:std::__2::__function::__func<(anonymous namespace)::OPFSBackend::createDirectory(unsigned int)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::target_type() const
+287:std::__2::__shared_ptr_emplace<(anonymous namespace)::OPFSDirectory, std::__2::allocator<(anonymous namespace)::OPFSDirectory>>::~__shared_ptr_emplace()
+288:std::__2::__shared_ptr_emplace<(anonymous namespace)::OPFSDirectory, std::__2::allocator<(anonymous namespace)::OPFSDirectory>>::~__shared_ptr_emplace()_518
+289:std::__2::__shared_ptr_emplace<(anonymous namespace)::OPFSDirectory, std::__2::allocator<(anonymous namespace)::OPFSDirectory>>::__on_zero_shared()
+290:wasmfs::Directory::getSize()
+291:(anonymous namespace)::OPFSDirectory::getChild(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&)
+292:(anonymous namespace)::OPFSDirectory::insertDataFile(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&, unsigned int)
+293:(anonymous namespace)::OPFSDirectory::insertDirectory(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&, unsigned int)
+294:(anonymous namespace)::OPFSDirectory::insertSymlink(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&, std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&)
+295:(anonymous namespace)::OPFSDirectory::insertMove(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&, std::__2::shared_ptr<wasmfs::File>)
+296:(anonymous namespace)::OPFSDirectory::removeChild(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&)
+297:(anonymous namespace)::OPFSDirectory::getNumEntries()
+298:(anonymous namespace)::OPFSDirectory::getEntries()
+299:wasmfs::Directory::getName(std::__2::shared_ptr<wasmfs::File>)
+300:(anonymous namespace)::OPFSDirectory::~OPFSDirectory()
+301:emscripten::ProxyingQueue::run(void*)
+302:std::__2::__tree<std::__2::__value_type<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>, wasmfs::Directory::DCacheEntry>, std::__2::__map_value_compare<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>, std::__2::pair<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const, wasmfs::Directory::DCacheEntry>, std::__2::less<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>>>, std::__2::allocator<std::__2::pair<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const, wasmfs::Directory::DCacheEntry>>>::__tree_deleter::operator()[abi:nqn220108](std::__2::__tree_node<std::__2::__value_type<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>, wasmfs::Directory::DCacheEntry>, void*>*)
+303:(anonymous namespace)::OPFSDirectory::~OPFSDirectory()_536
+304:wasmfs::Directory::~Directory()
+305:wasmfs::Directory::~Directory()_538
+306:std::__2::__function::__func<(anonymous namespace)::OPFSDirectory::getChild(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::__clone() const
+307:std::__2::__function::__func<(anonymous namespace)::OPFSDirectory::getChild(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::__clone(std::__2::__function::__base<void (emscripten::ProxyingQueue::ProxyingCtx)>*) const
+308:std::__2::__function::__func<(anonymous namespace)::OPFSDirectory::getChild(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::operator()(emscripten::ProxyingQueue::ProxyingCtx&&)
+309:std::__2::__function::__func<(anonymous namespace)::OPFSDirectory::getChild(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::target(std::type_info const&) const
+310:std::__2::__function::__func<(anonymous namespace)::OPFSDirectory::getChild(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::target_type() const
+311:std::__2::__shared_ptr_emplace<(anonymous namespace)::OPFSFile, std::__2::allocator<(anonymous namespace)::OPFSFile>>::~__shared_ptr_emplace()
+312:std::__2::__shared_ptr_emplace<(anonymous namespace)::OPFSFile, std::__2::allocator<(anonymous namespace)::OPFSFile>>::~__shared_ptr_emplace()_548
+313:std::__2::__shared_ptr_emplace<(anonymous namespace)::OPFSFile, std::__2::allocator<(anonymous namespace)::OPFSFile>>::__on_zero_shared()
+314:(anonymous namespace)::OPFSFile::getSize()
+315:(anonymous namespace)::OPFSFile::open(unsigned int)
+316:(anonymous namespace)::OPFSFile::close()
+317:(anonymous namespace)::OPFSFile::read(unsigned char*, unsigned long, long long)
+318:(anonymous namespace)::OPFSFile::write(unsigned char const*, unsigned long, long long)
+319:(anonymous namespace)::OPFSFile::setSize(long long)
+320:(anonymous namespace)::OPFSFile::flush()
+321:(anonymous namespace)::OPFSFile::~OPFSFile()
+322:(anonymous namespace)::OPFSFile::~OPFSFile()_559
+323:std::__2::__function::__func<(anonymous namespace)::OPFSFile::getSize()::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::__clone() const
+324:std::__2::__function::__func<(anonymous namespace)::OPFSFile::getSize()::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::__clone(std::__2::__function::__base<void (emscripten::ProxyingQueue::ProxyingCtx)>*) const
+325:std::__2::__function::__func<(anonymous namespace)::OPFSFile::getSize()::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::operator()(emscripten::ProxyingQueue::ProxyingCtx&&)
+326:std::__2::__function::__func<(anonymous namespace)::OPFSFile::getSize()::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::target(std::type_info const&) const
+327:std::__2::__function::__func<(anonymous namespace)::OPFSFile::getSize()::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::target_type() const
+328:std::__2::__function::__func<(anonymous namespace)::OPFSFile::getSize()::'lambda0'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::__clone() const
+329:std::__2::__function::__func<(anonymous namespace)::OPFSFile::getSize()::'lambda0'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::__clone(std::__2::__function::__base<void (emscripten::ProxyingQueue::ProxyingCtx)>*) const
+330:std::__2::__function::__func<(anonymous namespace)::OPFSFile::getSize()::'lambda0'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::operator()(emscripten::ProxyingQueue::ProxyingCtx&&)
+331:std::__2::__function::__func<(anonymous namespace)::OPFSFile::getSize()::'lambda0'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::target(std::type_info const&) const
+332:std::__2::__function::__func<(anonymous namespace)::OPFSFile::getSize()::'lambda0'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::target_type() const
+333:std::__2::__function::__func<(anonymous namespace)::OPFSFile::getSize()::'lambda'(), void ()>::__clone() const
+334:std::__2::__function::__func<(anonymous namespace)::OPFSFile::getSize()::'lambda'(), void ()>::__clone(std::__2::__function::__base<void ()>*) const
+335:std::__2::__function::__func<(anonymous namespace)::OPFSFile::getSize()::'lambda'(), void ()>::operator()()
+336:std::__2::__function::__func<(anonymous namespace)::OPFSFile::getSize()::'lambda'(), void ()>::target(std::type_info const&) const
+337:std::__2::__function::__func<(anonymous namespace)::OPFSFile::getSize()::'lambda'(), void ()>::target_type() const
+338:std::__2::__function::__func<(anonymous namespace)::OpenState::open((anonymous namespace)::Worker&, int, unsigned int)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::__clone() const
+339:std::__2::__function::__func<(anonymous namespace)::OpenState::open((anonymous namespace)::Worker&, int, unsigned int)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::__clone(std::__2::__function::__base<void (emscripten::ProxyingQueue::ProxyingCtx)>*) const
+340:std::__2::__function::__func<(anonymous namespace)::OpenState::open((anonymous namespace)::Worker&, int, unsigned int)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::operator()(emscripten::ProxyingQueue::ProxyingCtx&&)
+341:std::__2::__function::__func<(anonymous namespace)::OpenState::open((anonymous namespace)::Worker&, int, unsigned int)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::target(std::type_info const&) const
+342:std::__2::__function::__func<(anonymous namespace)::OpenState::open((anonymous namespace)::Worker&, int, unsigned int)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::target_type() const
+343:std::__2::__function::__func<(anonymous namespace)::OpenState::open((anonymous namespace)::Worker&, int, unsigned int)::'lambda0'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::__clone() const
+344:std::__2::__function::__func<(anonymous namespace)::OpenState::open((anonymous namespace)::Worker&, int, unsigned int)::'lambda0'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::__clone(std::__2::__function::__base<void (emscripten::ProxyingQueue::ProxyingCtx)>*) const
+345:std::__2::__function::__func<(anonymous namespace)::OpenState::open((anonymous namespace)::Worker&, int, unsigned int)::'lambda0'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::operator()(emscripten::ProxyingQueue::ProxyingCtx&&)
+346:std::__2::__function::__func<(anonymous namespace)::OpenState::open((anonymous namespace)::Worker&, int, unsigned int)::'lambda0'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::target(std::type_info const&) const
+347:std::__2::__function::__func<(anonymous namespace)::OpenState::open((anonymous namespace)::Worker&, int, unsigned int)::'lambda0'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::target_type() const
+348:std::__2::__function::__func<(anonymous namespace)::OpenState::open((anonymous namespace)::Worker&, int, unsigned int)::'lambda1'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::__clone() const
+349:std::__2::__function::__func<(anonymous namespace)::OpenState::open((anonymous namespace)::Worker&, int, unsigned int)::'lambda1'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::__clone(std::__2::__function::__base<void (emscripten::ProxyingQueue::ProxyingCtx)>*) const
+350:std::__2::__function::__func<(anonymous namespace)::OpenState::open((anonymous namespace)::Worker&, int, unsigned int)::'lambda1'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::operator()(emscripten::ProxyingQueue::ProxyingCtx&&)
+351:std::__2::__function::__func<(anonymous namespace)::OpenState::open((anonymous namespace)::Worker&, int, unsigned int)::'lambda1'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::target(std::type_info const&) const
+352:std::__2::__function::__func<(anonymous namespace)::OpenState::open((anonymous namespace)::Worker&, int, unsigned int)::'lambda1'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::target_type() const
+353:std::__2::__function::__func<(anonymous namespace)::OpenState::open((anonymous namespace)::Worker&, int, unsigned int)::'lambda'(), void ()>::__clone() const
+354:std::__2::__function::__func<(anonymous namespace)::OpenState::open((anonymous namespace)::Worker&, int, unsigned int)::'lambda'(), void ()>::__clone(std::__2::__function::__base<void ()>*) const
+355:std::__2::__function::__func<(anonymous namespace)::OpenState::open((anonymous namespace)::Worker&, int, unsigned int)::'lambda'(), void ()>::operator()()
+356:std::__2::__function::__func<(anonymous namespace)::OpenState::open((anonymous namespace)::Worker&, int, unsigned int)::'lambda'(), void ()>::target(std::type_info const&) const
+357:std::__2::__function::__func<(anonymous namespace)::OpenState::open((anonymous namespace)::Worker&, int, unsigned int)::'lambda'(), void ()>::target_type() const
+358:std::__2::__function::__func<(anonymous namespace)::OpenState::close((anonymous namespace)::Worker&)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::__clone() const
+359:std::__2::__function::__func<(anonymous namespace)::OpenState::close((anonymous namespace)::Worker&)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::__clone(std::__2::__function::__base<void (emscripten::ProxyingQueue::ProxyingCtx)>*) const
+360:std::__2::__function::__func<(anonymous namespace)::OpenState::close((anonymous namespace)::Worker&)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::operator()(emscripten::ProxyingQueue::ProxyingCtx&&)
+361:std::__2::__function::__func<(anonymous namespace)::OpenState::close((anonymous namespace)::Worker&)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::target(std::type_info const&) const
+362:std::__2::__function::__func<(anonymous namespace)::OpenState::close((anonymous namespace)::Worker&)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::target_type() const
+363:std::__2::__function::__func<(anonymous namespace)::OpenState::close((anonymous namespace)::Worker&)::'lambda'(), void ()>::__clone() const
+364:std::__2::__function::__func<(anonymous namespace)::OpenState::close((anonymous namespace)::Worker&)::'lambda'(), void ()>::__clone(std::__2::__function::__base<void ()>*) const
+365:std::__2::__function::__func<(anonymous namespace)::OpenState::close((anonymous namespace)::Worker&)::'lambda'(), void ()>::target(std::type_info const&) const
+366:std::__2::__function::__func<(anonymous namespace)::OpenState::close((anonymous namespace)::Worker&)::'lambda'(), void ()>::target_type() const
+367:std::__2::__function::__func<(anonymous namespace)::OPFSFile::read(unsigned char*, unsigned long, long long)::'lambda'(), void ()>::__clone() const
+368:std::__2::__function::__func<(anonymous namespace)::OPFSFile::read(unsigned char*, unsigned long, long long)::'lambda'(), void ()>::__clone(std::__2::__function::__base<void ()>*) const
+369:std::__2::__function::__func<(anonymous namespace)::OPFSFile::read(unsigned char*, unsigned long, long long)::'lambda'(), void ()>::operator()()
+370:std::__2::__function::__func<(anonymous namespace)::OPFSFile::read(unsigned char*, unsigned long, long long)::'lambda'(), void ()>::target(std::type_info const&) const
+371:std::__2::__function::__func<(anonymous namespace)::OPFSFile::read(unsigned char*, unsigned long, long long)::'lambda'(), void ()>::target_type() const
+372:std::__2::__function::__func<(anonymous namespace)::OPFSFile::read(unsigned char*, unsigned long, long long)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::__clone() const
+373:std::__2::__function::__func<(anonymous namespace)::OPFSFile::read(unsigned char*, unsigned long, long long)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::__clone(std::__2::__function::__base<void (emscripten::ProxyingQueue::ProxyingCtx)>*) const
+374:std::__2::__function::__func<(anonymous namespace)::OPFSFile::read(unsigned char*, unsigned long, long long)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::operator()(emscripten::ProxyingQueue::ProxyingCtx&&)
+375:std::__2::__function::__func<(anonymous namespace)::OPFSFile::read(unsigned char*, unsigned long, long long)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::target(std::type_info const&) const
+376:std::__2::__function::__func<(anonymous namespace)::OPFSFile::read(unsigned char*, unsigned long, long long)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::target_type() const
+377:std::__2::__function::__func<(anonymous namespace)::OPFSFile::write(unsigned char const*, unsigned long, long long)::'lambda'(), void ()>::__clone() const
+378:std::__2::__function::__func<(anonymous namespace)::OPFSFile::write(unsigned char const*, unsigned long, long long)::'lambda'(), void ()>::__clone(std::__2::__function::__base<void ()>*) const
+379:std::__2::__function::__func<(anonymous namespace)::OPFSFile::write(unsigned char const*, unsigned long, long long)::'lambda'(), void ()>::operator()()
+380:std::__2::__function::__func<(anonymous namespace)::OPFSFile::write(unsigned char const*, unsigned long, long long)::'lambda'(), void ()>::target(std::type_info const&) const
+381:std::__2::__function::__func<(anonymous namespace)::OPFSFile::write(unsigned char const*, unsigned long, long long)::'lambda'(), void ()>::target_type() const
+382:std::__2::__function::__func<(anonymous namespace)::OPFSFile::setSize(long long)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::__clone() const
+383:std::__2::__function::__func<(anonymous namespace)::OPFSFile::setSize(long long)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::__clone(std::__2::__function::__base<void (emscripten::ProxyingQueue::ProxyingCtx)>*) const
+384:std::__2::__function::__func<(anonymous namespace)::OPFSFile::setSize(long long)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::operator()(emscripten::ProxyingQueue::ProxyingCtx&&)
+385:std::__2::__function::__func<(anonymous namespace)::OPFSFile::setSize(long long)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::target(std::type_info const&) const
+386:std::__2::__function::__func<(anonymous namespace)::OPFSFile::setSize(long long)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::target_type() const
+387:std::__2::__function::__func<(anonymous namespace)::OPFSFile::setSize(long long)::'lambda0'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::__clone() const
+388:std::__2::__function::__func<(anonymous namespace)::OPFSFile::setSize(long long)::'lambda0'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::__clone(std::__2::__function::__base<void (emscripten::ProxyingQueue::ProxyingCtx)>*) const
+389:std::__2::__function::__func<(anonymous namespace)::OPFSFile::setSize(long long)::'lambda0'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::operator()(emscripten::ProxyingQueue::ProxyingCtx&&)
+390:std::__2::__function::__func<(anonymous namespace)::OPFSFile::setSize(long long)::'lambda0'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::target(std::type_info const&) const
+391:std::__2::__function::__func<(anonymous namespace)::OPFSFile::setSize(long long)::'lambda0'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::target_type() const
+392:std::__2::__function::__func<(anonymous namespace)::OPFSFile::flush()::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::__clone() const
+393:std::__2::__function::__func<(anonymous namespace)::OPFSFile::flush()::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::__clone(std::__2::__function::__base<void (emscripten::ProxyingQueue::ProxyingCtx)>*) const
+394:std::__2::__function::__func<(anonymous namespace)::OPFSFile::flush()::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::operator()(emscripten::ProxyingQueue::ProxyingCtx&&)
+395:std::__2::__function::__func<(anonymous namespace)::OPFSFile::flush()::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::target(std::type_info const&) const
+396:std::__2::__function::__func<(anonymous namespace)::OPFSFile::flush()::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::target_type() const
+397:std::__2::__function::__func<(anonymous namespace)::OPFSFile::~OPFSFile()::'lambda'(), void ()>::__clone() const
+398:std::__2::__function::__func<(anonymous namespace)::OPFSFile::~OPFSFile()::'lambda'(), void ()>::__clone(std::__2::__function::__base<void ()>*) const
+399:std::__2::__function::__func<(anonymous namespace)::OPFSFile::~OPFSFile()::'lambda'(), void ()>::operator()()
+400:std::__2::__function::__func<(anonymous namespace)::OPFSFile::~OPFSFile()::'lambda'(), void ()>::target(std::type_info const&) const
+401:std::__2::__function::__func<(anonymous namespace)::OPFSFile::~OPFSFile()::'lambda'(), void ()>::target_type() const
+402:std::__2::__function::__func<(anonymous namespace)::OPFSDirectory::insertDataFile(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&, unsigned int)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::__clone() const
+403:std::__2::__function::__func<(anonymous namespace)::OPFSDirectory::insertDataFile(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&, unsigned int)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::__clone(std::__2::__function::__base<void (emscripten::ProxyingQueue::ProxyingCtx)>*) const
+404:std::__2::__function::__func<(anonymous namespace)::OPFSDirectory::insertDataFile(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&, unsigned int)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::operator()(emscripten::ProxyingQueue::ProxyingCtx&&)
+405:std::__2::__function::__func<(anonymous namespace)::OPFSDirectory::insertDataFile(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&, unsigned int)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::target(std::type_info const&) const
+406:std::__2::__function::__func<(anonymous namespace)::OPFSDirectory::insertDataFile(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&, unsigned int)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::target_type() const
+407:std::__2::__function::__func<(anonymous namespace)::OPFSDirectory::insertDirectory(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&, unsigned int)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::__clone() const
+408:std::__2::__function::__func<(anonymous namespace)::OPFSDirectory::insertDirectory(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&, unsigned int)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::__clone(std::__2::__function::__base<void (emscripten::ProxyingQueue::ProxyingCtx)>*) const
+409:std::__2::__function::__func<(anonymous namespace)::OPFSDirectory::insertDirectory(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&, unsigned int)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::operator()(emscripten::ProxyingQueue::ProxyingCtx&&)
+410:std::__2::__function::__func<(anonymous namespace)::OPFSDirectory::insertDirectory(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&, unsigned int)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::target(std::type_info const&) const
+411:std::__2::__function::__func<(anonymous namespace)::OPFSDirectory::insertDirectory(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&, unsigned int)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::target_type() const
+412:std::__2::__function::__func<(anonymous namespace)::OPFSDirectory::insertMove(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&, std::__2::shared_ptr<wasmfs::File>)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::__clone() const
+413:std::__2::__function::__func<(anonymous namespace)::OPFSDirectory::insertMove(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&, std::__2::shared_ptr<wasmfs::File>)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::__clone(std::__2::__function::__base<void (emscripten::ProxyingQueue::ProxyingCtx)>*) const
+414:std::__2::__function::__func<(anonymous namespace)::OPFSDirectory::insertMove(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&, std::__2::shared_ptr<wasmfs::File>)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::operator()(emscripten::ProxyingQueue::ProxyingCtx&&)
+415:std::__2::__function::__func<(anonymous namespace)::OPFSDirectory::insertMove(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&, std::__2::shared_ptr<wasmfs::File>)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::target(std::type_info const&) const
+416:std::__2::__function::__func<(anonymous namespace)::OPFSDirectory::insertMove(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&, std::__2::shared_ptr<wasmfs::File>)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::target_type() const
+417:std::__2::__function::__func<(anonymous namespace)::OPFSDirectory::removeChild(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::__clone() const
+418:std::__2::__function::__func<(anonymous namespace)::OPFSDirectory::removeChild(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::__clone(std::__2::__function::__base<void (emscripten::ProxyingQueue::ProxyingCtx)>*) const
+419:std::__2::__function::__func<(anonymous namespace)::OPFSDirectory::removeChild(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::operator()(emscripten::ProxyingQueue::ProxyingCtx&&)
+420:std::__2::__function::__func<(anonymous namespace)::OPFSDirectory::removeChild(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::target(std::type_info const&) const
+421:std::__2::__function::__func<(anonymous namespace)::OPFSDirectory::removeChild(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&)::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::target_type() const
+422:decltype(auto) std::__2::__variant_detail::__visitation::__base::__dispatcher<0ul>::__dispatch[abi:nqn220108]<std::__2::__variant_detail::__dtor<std::__2::__variant_detail::__traits<std::__2::vector<wasmfs::Directory::Entry, std::__2::allocator<wasmfs::Directory::Entry>>, int>, (std::__2::__variant_detail::_Trait)1>::__destroy[abi:nqn220108]()::'lambda'(auto&)&&, std::__2::__variant_detail::__base<(std::__2::__variant_detail::_Trait)1, std::__2::vector<wasmfs::Directory::Entry, std::__2::allocator<wasmfs::Directory::Entry>>, int>&>(auto, std::__2::__variant_detail::__base<(std::__2::__variant_detail::_Trait)1, std::__2::vector<wasmfs::Directory::Entry, std::__2::allocator<wasmfs::Directory::Entry>>, int>&)
+423:std::__2::__function::__func<(anonymous namespace)::OPFSDirectory::getEntries()::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::__clone() const
+424:std::__2::__function::__func<(anonymous namespace)::OPFSDirectory::getEntries()::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::__clone(std::__2::__function::__base<void (emscripten::ProxyingQueue::ProxyingCtx)>*) const
+425:std::__2::__function::__func<(anonymous namespace)::OPFSDirectory::getEntries()::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::operator()(emscripten::ProxyingQueue::ProxyingCtx&&)
+426:std::__2::__function::__func<(anonymous namespace)::OPFSDirectory::getEntries()::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::target(std::type_info const&) const
+427:std::__2::__function::__func<(anonymous namespace)::OPFSDirectory::getEntries()::'lambda'(auto), void (emscripten::ProxyingQueue::ProxyingCtx)>::target_type() const
+428:std::__2::__function::__func<(anonymous namespace)::OPFSDirectory::~OPFSDirectory()::'lambda'(), void ()>::__clone() const
+429:std::__2::__function::__func<(anonymous namespace)::OPFSDirectory::~OPFSDirectory()::'lambda'(), void ()>::__clone(std::__2::__function::__base<void ()>*) const
+430:std::__2::__function::__func<(anonymous namespace)::OPFSDirectory::~OPFSDirectory()::'lambda'(), void ()>::operator()()
+431:std::__2::__function::__func<(anonymous namespace)::OPFSDirectory::~OPFSDirectory()::'lambda'(), void ()>::target(std::type_info const&) const
+432:std::__2::__function::__func<(anonymous namespace)::OPFSDirectory::~OPFSDirectory()::'lambda'(), void ()>::target_type() const
+433:__cxx_global_array_dtor
+434:wasmfs::SpecialFiles::getStdin()
+435:__cxx_global_array_dtor.1
+436:wasmfs::SpecialFiles::getStdout()
+437:__cxx_global_array_dtor.2
+438:wasmfs::SpecialFiles::getStderr()
+439:__cxx_global_array_dtor.3
+440:std::__2::shared_ptr<wasmfs::SpecialFiles::(anonymous namespace)::RandomFile> std::__2::make_shared[abi:nqn220108]<wasmfs::SpecialFiles::(anonymous namespace)::RandomFile, 0>()
+441:__cxx_global_array_dtor.4
+442:__cxx_global_array_dtor.5
+443:std::__2::__shared_ptr_emplace<wasmfs::SpecialFiles::(anonymous namespace)::NullFile, std::__2::allocator<wasmfs::SpecialFiles::(anonymous namespace)::NullFile>>::~__shared_ptr_emplace()
+444:std::__2::__shared_ptr_emplace<wasmfs::SpecialFiles::(anonymous namespace)::NullFile, std::__2::allocator<wasmfs::SpecialFiles::(anonymous namespace)::NullFile>>::~__shared_ptr_emplace()_760
+445:wasmfs::SpecialFiles::(anonymous namespace)::NullFile::getSize()
+446:wasmfs::SpecialFiles::(anonymous namespace)::NullFile::read(unsigned char*, unsigned long, long long)
+447:wasmfs::SpecialFiles::(anonymous namespace)::NullFile::write(unsigned char const*, unsigned long, long long)
+448:wasmfs::SpecialFiles::(anonymous namespace)::NullFile::setSize(long long)
+449:wasmfs::SpecialFiles::(anonymous namespace)::NullFile::~NullFile()
+450:std::__2::__shared_ptr_emplace<wasmfs::SpecialFiles::(anonymous namespace)::StdinFile, std::__2::allocator<wasmfs::SpecialFiles::(anonymous namespace)::StdinFile>>::~__shared_ptr_emplace()
+451:std::__2::__shared_ptr_emplace<wasmfs::SpecialFiles::(anonymous namespace)::StdinFile, std::__2::allocator<wasmfs::SpecialFiles::(anonymous namespace)::StdinFile>>::~__shared_ptr_emplace()_772
+452:wasmfs::SpecialFiles::(anonymous namespace)::StdinFile::read(unsigned char*, unsigned long, long long)
+453:wasmfs::SpecialFiles::(anonymous namespace)::StdinFile::write(unsigned char const*, unsigned long, long long)
+454:std::__2::__shared_ptr_emplace<wasmfs::SpecialFiles::(anonymous namespace)::StdoutFile, std::__2::allocator<wasmfs::SpecialFiles::(anonymous namespace)::StdoutFile>>::~__shared_ptr_emplace()
+455:std::__2::__shared_ptr_emplace<wasmfs::SpecialFiles::(anonymous namespace)::StdoutFile, std::__2::allocator<wasmfs::SpecialFiles::(anonymous namespace)::StdoutFile>>::~__shared_ptr_emplace()_784
+456:wasmfs::SpecialFiles::(anonymous namespace)::StdoutFile::write(unsigned char const*, unsigned long, long long)
+457:char& std::__2::vector<char, std::__2::allocator<char>>::emplace_back<char>(char&&)::'lambda0'()::operator()() const
+458:wasmfs::SpecialFiles::(anonymous namespace)::WritingStdFile::flush()
+459:wasmfs::SpecialFiles::(anonymous namespace)::StdoutFile::~StdoutFile()
+460:std::__2::__shared_ptr_emplace<wasmfs::SpecialFiles::(anonymous namespace)::StderrFile, std::__2::allocator<wasmfs::SpecialFiles::(anonymous namespace)::StderrFile>>::~__shared_ptr_emplace()
+461:std::__2::__shared_ptr_emplace<wasmfs::SpecialFiles::(anonymous namespace)::StderrFile, std::__2::allocator<wasmfs::SpecialFiles::(anonymous namespace)::StderrFile>>::~__shared_ptr_emplace()_799
+462:wasmfs::SpecialFiles::(anonymous namespace)::StderrFile::write(unsigned char const*, unsigned long, long long)
+463:wasmfs::SpecialFiles::(anonymous namespace)::WritingStdFile::~WritingStdFile()_803
+464:std::__2::__shared_ptr_emplace<wasmfs::SpecialFiles::(anonymous namespace)::RandomFile, std::__2::allocator<wasmfs::SpecialFiles::(anonymous namespace)::RandomFile>>::~__shared_ptr_emplace()
+465:std::__2::__shared_ptr_emplace<wasmfs::SpecialFiles::(anonymous namespace)::RandomFile, std::__2::allocator<wasmfs::SpecialFiles::(anonymous namespace)::RandomFile>>::~__shared_ptr_emplace()_806
+466:wasmfs::SpecialFiles::(anonymous namespace)::RandomFile::read(unsigned char*, unsigned long, long long)
+467:wasmfs::File::~File()
+468:wasmfs::Directory::Handle::cacheChild(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&, std::__2::shared_ptr<wasmfs::File>, wasmfs::Directory::DCacheKind)
+469:wasmfs::Directory::Handle::getChild(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&)
+470:wasmfs::Directory::Handle::mountChild(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&, std::__2::shared_ptr<wasmfs::File>)
+471:wasmfs::Directory::Handle::insertDirectory(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&, unsigned int)
+472:std::__2::shared_ptr<wasmfs::OpenFileState>& std::__2::vector<std::__2::shared_ptr<wasmfs::OpenFileState>, std::__2::allocator<std::__2::shared_ptr<wasmfs::OpenFileState>>>::emplace_back<>()::'lambda0'()::operator()() const
+473:wasmfs::OpenFileState::create(std::__2::shared_ptr<wasmfs::File>, unsigned int, std::__2::shared_ptr<wasmfs::OpenFileState>&)
+474:wasmfs::FileTable::Handle::getEntry(unsigned int)
+475:wasmfs::FileTable::Handle::setEntry(unsigned int, std::__2::shared_ptr<wasmfs::OpenFileState>)
+476:std::__2::__shared_ptr_emplace<wasmfs::OpenFileState, std::__2::allocator<wasmfs::OpenFileState>>::~__shared_ptr_emplace()
+477:std::__2::__shared_ptr_emplace<wasmfs::OpenFileState, std::__2::allocator<wasmfs::OpenFileState>>::~__shared_ptr_emplace()_842
+478:std::__2::__shared_ptr_emplace<wasmfs::OpenFileState, std::__2::allocator<wasmfs::OpenFileState>>::__on_zero_shared()
+479:wasmfs::path::parseParent(std::__2::basic_string_view<char, std::__2::char_traits<char>>, unsigned int)
+480:wasmfs::path::(anonymous namespace)::getBaseDir(unsigned int)
+481:wasmfs::path::(anonymous namespace)::doParseParent(std::__2::basic_string_view<char, std::__2::char_traits<char>>, std::__2::shared_ptr<wasmfs::Directory>, unsigned long&)
+482:wasmfs::path::(anonymous namespace)::getChild(std::__2::shared_ptr<wasmfs::Directory>, std::__2::basic_string_view<char, std::__2::char_traits<char>>, wasmfs::path::LinkBehavior, unsigned long&)
+483:wasmfs::path::parseFile(std::__2::basic_string_view<char, std::__2::char_traits<char>>, unsigned int, wasmfs::path::LinkBehavior)
+484:wasmfs::path::(anonymous namespace)::doParseFile(std::__2::basic_string_view<char, std::__2::char_traits<char>>, std::__2::shared_ptr<wasmfs::Directory>, wasmfs::path::LinkBehavior, unsigned long&)
+485:writeAtOffset(OffsetHandling, unsigned int, __wasi_ciovec_t const*, unsigned long, unsigned long*, unsigned long long)
+486:wasmfs::DataFile::Handle::write(unsigned char const*, unsigned long, long long)
+487:__wasi_fd_close
+488:wasmfs::DataFile::Handle::flush()
+489:__syscall_newfstatat
+490:decltype(auto) std::__2::__variant_detail::__visitation::__base::__dispatcher<1ul>::__dispatch[abi:nqn220108]<std::__2::__variant_detail::__dtor<std::__2::__variant_detail::__traits<long, std::__2::shared_ptr<wasmfs::File>>, (std::__2::__variant_detail::_Trait)1>::__destroy[abi:nqn220108]()::'lambda'(auto&)&&, std::__2::__variant_detail::__base<(std::__2::__variant_detail::_Trait)1, long, std::__2::shared_ptr<wasmfs::File>>&>(auto, std::__2::__variant_detail::__base<(std::__2::__variant_detail::_Trait)1, long, std::__2::shared_ptr<wasmfs::File>>&)
+491:fflush
+492:wasmfs::MemoryDataFile::write(unsigned char const*, unsigned long, long long)
+493:wasmfs::MemoryDataFile::read(unsigned char*, unsigned long, long long)
+494:wasmfs::MemoryDirectory::getChild(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&)
+495:wasmfs::MemoryDirectory::removeChild(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&)
+496:std::__2::vector<wasmfs::MemoryDirectory::ChildEntry, std::__2::allocator<wasmfs::MemoryDirectory::ChildEntry>>::erase[abi:nqn220108](std::__2::__wrap_iter<wasmfs::MemoryDirectory::ChildEntry const*>)
+497:wasmfs::MemoryDirectory::getEntries()
+498:wasmfs::MemoryDirectory::insertMove(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&, std::__2::shared_ptr<wasmfs::File>)
+499:wasmfs::MemoryDirectory::insertChild(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&, std::__2::shared_ptr<wasmfs::File>)
+500:wasmfs::MemoryDirectory::getName(std::__2::shared_ptr<wasmfs::File>)
+501:wasmfs::MemoryDataFile::getSize()
+502:wasmfs::MemoryDataFile::setSize(long long)
+503:wasmfs::MemoryDataFile::~MemoryDataFile()
+504:wasmfs::MemoryDataFile::~MemoryDataFile()_906
+505:wasmfs::MemoryDirectory::insertDataFile(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&, unsigned int)
+506:wasmfs::MemoryDirectory::insertDirectory(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&, unsigned int)
+507:wasmfs::MemoryDirectory::insertSymlink(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&, std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>> const&)
+508:wasmfs::MemoryDirectory::getNumEntries()
+509:wasmfs::MemoryDirectory::maintainsFileIdentity()
+510:wasmfs::MemoryDirectory::~MemoryDirectory()
+511:wasmfs::MemoryDirectory::~MemoryDirectory()_913
+512:wasmfs::MemoryBackend::createFile(unsigned int)
+513:wasmfs::MemoryBackend::createDirectory(unsigned int)
+514:wasmfs::MemoryBackend::createSymlink(std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>)
+515:wasmfs::MemoryBackend::populateRoot(wasmfs::Directory::Handle&)
+516:std::__2::__shared_ptr_emplace<wasmfs::MemoryDataFile, std::__2::allocator<wasmfs::MemoryDataFile>>::~__shared_ptr_emplace()
+517:std::__2::__shared_ptr_emplace<wasmfs::MemoryDataFile, std::__2::allocator<wasmfs::MemoryDataFile>>::~__shared_ptr_emplace()_926
+518:std::__2::__shared_ptr_emplace<wasmfs::MemoryDirectory, std::__2::allocator<wasmfs::MemoryDirectory>>::~__shared_ptr_emplace()
+519:std::__2::__shared_ptr_emplace<wasmfs::MemoryDirectory, std::__2::allocator<wasmfs::MemoryDirectory>>::~__shared_ptr_emplace()_930
+520:std::__2::__shared_ptr_emplace<wasmfs::MemorySymlink, std::__2::allocator<wasmfs::MemorySymlink>>::~__shared_ptr_emplace()
+521:std::__2::__shared_ptr_emplace<wasmfs::MemorySymlink, std::__2::allocator<wasmfs::MemorySymlink>>::~__shared_ptr_emplace()_934
+522:std::__2::__shared_ptr_emplace<wasmfs::MemorySymlink, std::__2::allocator<wasmfs::MemorySymlink>>::__on_zero_shared()
+523:wasmfs::Symlink::getSize()
+524:wasmfs::MemorySymlink::~MemorySymlink()
+525:wasmfs::MemorySymlink::~MemorySymlink()_939
+526:wasmfs::MemorySymlink::getTarget() const
+527:__cxx_global_array_dtor_941
+528:_emscripten_stack_restore
+529:_emscripten_stack_alloc
+530:emscripten_stack_get_current
+531:setThrew
+532:_emscripten_thread_init
